@@ -35,7 +35,7 @@ try {
 }
 
 
-function primeNumber2(from, to, interval) {
+function printNumber2(from, to, interval) {
 
   let idInterval2 = setTimeout(function tick() {
     console.log(from++);
@@ -47,4 +47,4 @@ function primeNumber2(from, to, interval) {
 
   
 }
-primeNumber2(5, 10, 1000);
+printNumber2(5, 10, 1000);
